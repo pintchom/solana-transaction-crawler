@@ -1,18 +1,18 @@
 [package]
 name = "solana-transaction-crawler"
-version = "0.1.0"
+version = "0.1.1"                                                          # Bump version since we're making breaking changes
 edition = "2021"
 description = "A library to make it easier to crawl Solana transactions."
-repository = "https://github.com/samuelvanderwaal/solana-transaction-crawler"
+repository = "https://github.com/YOUR_USERNAME/solana-transaction-crawler" # Update this
 license = "Apache-2.0"
 
 [dependencies]
 rayon = "1.5.3"
 retry = "1.3.1"
 serde = "1.0.139"
-solana-client = "~1.14.14"
-solana-program = "~1.14.14"
-solana-sdk = "~1.14.14"
-solana-transaction-status = "~1.14.14"
+solana-client = "1.18"
+solana-program = "1.18"
+solana-sdk = "1.18"
+solana-transaction-status = "1.18"
 thiserror = "1.0.31"
 tokio = "1.14"

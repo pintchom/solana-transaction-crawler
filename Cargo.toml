@@ -1,9 +1,9 @@
 [package]
 name = "solana-transaction-crawler"
-version = "0.1.1"                                                          # Bump version since we're making breaking changes
+version = "0.1.1"                                                         # Bump version since we're making breaking changes
 edition = "2021"
 description = "A library to make it easier to crawl Solana transactions."
-repository = "https://github.com/YOUR_USERNAME/solana-transaction-crawler" # Update this
+repository = "https://github.com/pintchom/solana-transaction-crawler"     # Update this
 license = "Apache-2.0"
 
 [dependencies]
